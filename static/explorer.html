@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Explorer</title>
+    <!---
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    
+    -->
+</head>
+<body>
+
+    <script type="text/javascript" src="./scripts/bundle.js"></script>
+    <script>
+        var btc = new bitcoin();
+        btc.getNetworkInfo().then(function(info) {
+            console.log(info);
+        })
+    </script>
+</body>
+</html>

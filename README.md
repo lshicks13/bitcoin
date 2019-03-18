@@ -1,3 +1,3 @@
-# bitcoin
+# explorer
 
-This is a bitcoin project from blockgeeks.
+This is a basic block explorer use the blockcypher API.
